@@ -1,4 +1,4 @@
-# TicTacToe — React HQ Bootcamp Assignment
+# TicTacToe — React Bootcamp Assignment
 
 A production-quality TicTacToe game built with React (functional components + hooks) and **useReducer** for state management. 
 
