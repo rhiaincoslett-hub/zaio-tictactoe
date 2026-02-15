@@ -1,0 +1,22 @@
+.scoreboard {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+}
+
+.scoreboard .heading {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.scoreboard .list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.scoreboard .list li {
+  margin-bottom: 0.25rem;
+}

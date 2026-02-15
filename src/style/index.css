@@ -1,0 +1,35 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #fff0f5;
+  --color-surface: #ffe4ec;
+  --color-border: #f8bbd9;
+  --color-text: #8b1538;
+  --color-text-muted: #c2185b;
+  --color-x: #b71c1c;
+  --color-o: #ec407a;
+  --color-win: #c2185b;
+  --color-hover: #fce4ec;
+  --radius: 12px;
+  --shadow: 0 4px 12px -2px rgb(194 24 91 / 0.2), 0 2px 6px -2px rgb(244 143 177 / 0.3);
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+#root {
+  min-height: 100vh;
+}

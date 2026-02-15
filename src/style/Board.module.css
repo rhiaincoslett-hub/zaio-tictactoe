@@ -1,0 +1,19 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 8px;
+  width: min(280px, 90vw);
+  aspect-ratio: 1;
+  background: linear-gradient(145deg, #f8bbd9 0%, #f48fb1 100%);
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: var(--shadow), 0 0 0 3px rgba(194, 24, 91, 0.15);
+  overflow: visible;
+}
+
+@media (min-width: 380px) {
+  .board {
+    width: min(320px, 90vw);
+  }
+}

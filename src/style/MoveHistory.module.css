@@ -1,0 +1,49 @@
+.moveHistory {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+}
+
+.heading {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.list li {
+  margin-bottom: 0.35rem;
+}
+
+.list button {
+  padding: 0.35rem 0.5rem;
+  font-size: 0.9rem;
+  color: var(--color-text);
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  transition: background 0.15s ease;
+}
+
+.list button:hover {
+  background: var(--color-hover);
+}
+
+.list button.currentMove {
+  font-weight: 600;
+  background: var(--color-hover);
+}
+
+.list button:focus-visible {
+  outline: 2px solid var(--color-o);
+  outline-offset: 2px;
+}
