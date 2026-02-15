@@ -1,11 +1,8 @@
 import { WINNING_LINES } from './constants';
 
 /**
- * Determines if there is a winner on the given board.
- * Checks all 8 winning lines (3 rows, 3 columns, 2 diagonals).
- *
- * @param {Array<string|null>} board - Array of 9 cells (null = empty)
- * @returns {string|null} - 'X', 'O', or null if no winner
+ * @param {Array<string|null>} board 
+ * @returns {string|null} 
  */
 export function calculateWinner(board) {
   for (let i = 0; i < WINNING_LINES.length; i++) {
@@ -18,10 +15,7 @@ export function calculateWinner(board) {
 }
 
 /**
- * Checks if the board is full (draw condition).
- * Draw = all cells filled AND no winner.
- *
- * @param {Array<string|null>} board - Array of 9 cells
+ * @param {Array<string|null>} board 
  * @returns {boolean}
  */
 export function isBoardFull(board) {
@@ -29,9 +23,7 @@ export function isBoardFull(board) {
 }
 
 /**
- * Derives game result from board state.
- *
- * @param {Array<string|null>} board - Array of 9 cells
+ * @param {Array<string|null>} board 
  * @returns {{ winner: string|null, isDraw: boolean, isFinished: boolean }}
  */
 export function getGameResult(board) {
